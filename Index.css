@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700&family=Poppins:wght@500;600;700;800&family=Rufina:wght@400;700&family=Work+Sans:wght@400;500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Work Sans", sans-serif;
+}
+
+:root {
+    --heading: rgb(0 10 45);
+    --para: #777777;
+    --para-tint: #e4e4e4;
+    --third: #fff;
+    --helper: #8490ff;
+    --helper-tint: #f3f4ff;
+    --bg: #7c9ac4;
+    --gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+    --shadow: 0px 2rem 4rem 0px rgba(42, 46, 78, 0.2);
+    --yellow: rgb(248, 248, 9);
+    --white: white;
+
+  }
+
+
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Rufina", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 6rem;
+}
+h3{
+    font-size: 2rem;
+}
+
+
+p{
+    color: var(--para);
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+/* to remove default blue colour line below anchor tag */
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 95%;
+}
+
+button{
+background: var(--gradient);
+padding: 1rem;
+border: none;
+margin-right: 70%;
+font-weight: 590;
+font-size: 2.1rem;
+cursor: pointer;
+transition: all 0.4s ease;
+}
+
+.btn{
+color: var(--helper-tint);
+}
+
+button:hover,
+button:active{
+    box-shadow: var(--shadow);
+}
+
+footer{
+    background: var(--gradient);
+    font-size: 2.8rem;
+    text-align: center;
+    padding-bottom: 4rem;
+    font-weight: 500;
+   
+}
+/* ===================================
+header section starts
+======================================= */
+
+header{ 
+    padding: 0 0.5rem;
+    height: 10rem;
+    background-color:var(--bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    gap: 3rem;
+    display:flex;
+}
+
+.link:link,
+.link:visited{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-right: 2rem;
+  
+  font-weight: 500;
+  color:var(--para-tint);
+  font-family: "Poppins", sans-serif;
+  /* for transition on hover we need to add delay on previous property */
+  transition: color o.3s linear;
+}  
+
+.link:hover,
+.link:active{
+color: var(--yellow);
+}
+
+/* ===================================
+Reusable section
+======================================= */
+
+section{
+    padding: 9rem 0;
+}
+
+.grid{
+display: grid;
+gap: 2rem;
+grid-template-columns:repeat(2, 1fr);
+margin: 0 2rem;
+}
+
+.gridbox{
+    max-width: 50vw;
+}
+
+.section-head{
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    text-transform: capitalize;
+    position: relative;
+}
+/* ===================================
+        home section starts
+======================================= */
+
+
+.lefthome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tophead{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--helper);
+}
+
+
+
+.subhead{
+    
+ margin:1rem 15rem 2rem 0;
+}
+
+/* ===================================
+        Biodata section starts
+======================================= */
+
+.bio-list{
+padding: 6rem 0;
+display: flex;
+flex-direction: column;
+gap: 3rem;
+}
+
+.bio-Progressbar{
+    display: flex;
+    height: 2rem;
+    background-color:var(--para-tint);
+    border-radius: 10rem;
+    box-shadow: var(--shadow);
+    position: relative;
+
+}
+
+.bio-Progressbar::before{
+content: "";
+position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: inherit;
+background:var(--gradient);
+border-radius: 10rem;
+
+}
+
+.designbar::before {
+    width: 50%;
+    
+}
+.htmlbar::before{
+    width: 85%;
+}
+.cssbar::before{
+    width: 80%;
+}
+.scriptbar::before{
+    width: 60%;
+}
+.reactbar::before{
+    width: 50%;
+}
+
+.value{
+    background:var(--helper);
+    color: var(--white);
+    position: relative;
+    top: 2.4rem;
+    width: 4rem;
+    height: 2rem;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+/* to move percent box below progress bar */
+.designbar> .value{
+    left: 45%;
+    
+}
+.htmlbar> .value{
+    left: 80%;
+}
+.cssbar> .value{
+    left: 75%;
+}
+.scriptbar> .value{
+    left:55%;
+}
+.reactbar> .value{
+    left:45%;
+}
+
+/* ===================================
+        Portfolio section starts
+======================================= */
+.portfolio-section {
+    transition: all 0.8s linear;
+}
+
+.btn-port{
+    display:grid;
+    grid-template-columns:repeat(10,1fr);
+   margin:3rem 2rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem 0;
+
+}
+
+.img-under img{
+    width: 100%;
+    height: 35rem;
+    border-radius: 7px;
+    position: relative; 
+}
+
+
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 95%;
+    background: red;
+}
+
+.overlay{
+    position: relative;
+    top: -36rem;
+    left: 0;
+   
+    background: -webkit-linear-gradient(
+      0deg,
+      rgb(132 144 255) 0%,
+      rgb(98 189 252) 100%
+    );
+    opacity: 0;
+    color: var(--third);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+    transition: all 0.3s linear;
+    border-radius: 7px;
+}
+
+.img-under:hover > .overlay {
+    opacity: 0.8;
+    transform: translateY(0);
+    cursor: pointer;
+  }
+  
+  
+    
+
+/* ===================================
+        Stats section starts
+======================================= */
+.stat-section{
+background:var(--gradient);
+}
+
+.stat-box{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+
+.stat-title{
+   
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1 fr);
+    justify-content: center;
+    text-align: center;
+}
+
+/* ===================================
+        Resume section starts
+======================================= */
+
+/* ===================================
+        parrallax view
+======================================= */
+
+/* ===================================
+        contact section starts
+======================================= */
+.contact-section{
+    width: 100%;
+    font-size: 3rem;
+}
+
+.input{
+    size: 5rem;
+}
+
+input:invalid {
+    border: 2px dashed red;
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
+  
+/* ===================================
+        Footer section starts
+======================================= */
+.footbox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

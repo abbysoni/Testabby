@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abby Portfolio</title>
+
+    <link rel="stylesheet" href="Index.css">
+    <script src="./React.js"></script>
+    
+</head>
+
+<body>
+<header>
+    <img 
+    class="logo"
+    src="./Images/logo1.png"
+    alt="Abby Technical">
+
+    <nav>
+        <ul class="nav">
+            <li id="A"><a class="home-link link" href="#">HOME</a></li>
+            <li id="B"><a class="about-link link" href="#biodata-section">ABOUT</a></li>
+            <li id="C"><a class="service-link link" href="#service-section">SERVICES</a></li>
+        <li id="D"><a class="portfolio-link link" href="#portfolio-section">PORTFOLIO</a></li>
+            <li id="E"><a class="contact-link link" href="#contact-section">CONTACT</a></li>
+        </ul>
+        <!-- <a target="_blank" href="https://icons8.com/icon/59832/menu">Menu</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+    </nav>
+
+</header>
+
+<MAIN>       
+<!--                 HOME SECTION
+ this section displays my photo, name and tagline.
+    -->
+<section id="home-section" class="grid">
+    <div class="lefthome gridbox">
+    <p class="tophead">This is me</p>
+    <h1> ABHILASH SONI </h1>
+    <p class="subhead">I am Abhilash Kumar Soni. A front end Devloper aspiring to become full stack devloper in due time. Had experiece of testing as well to deliever curated product.</p>
+    <button><a class="btn-hireme btn" href="#contact-section">Hire Me</a></button>
+    </div>
+
+    <div class="righthome gridbox">
+    <img src="./images/hero.jpg" alt="home image">
+    </div>
+</section>
+
+<!--===================================
+        Biodata section starts
+======================================= -->
+
+<section id="biodata-section "class="grid">
+<div class="leftbio gridbox">
+    <img src="./Images/lazy1.jpg" alt="biodata img">
+</div>
+
+<div class="rightbio gridbox">
+
+    <h2 class="section-head">My Bio-data</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eaque sequi tenetur. Similique illo quisquam consequuntur autem deserunt qui non a, ex quos.</p> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, aut?</p>
+
+    <ul class="bio-list">
+        <li class="biodata-stats">
+            <h3>Design</h3>
+            <span class="bio-Progressbar designbar">
+                <div class="value">50%</div></span>
+            
+        </li>
+        <li class="biodata-stats">
+            <h3>HTML</h3>
+            <span class="bio-Progressbar htmlbar">
+                <div class="value u1">85%</div></span>
+        </li>
+        <li class="biodata-stats">
+            <h3>CSS</h3>
+            <span class="bio-Progressbar cssbar">
+                <div class="value one">80%</div></span>
+        </li>
+        <li class="biodata-stats">
+            <h3>JavaScript</h3>
+            <span class="bio-Progressbar scriptbar">
+                <div class="value two">60%</div></span>
+        </li>
+        <li class="biodata-stats">
+            <h3>ReactJS</h3>
+            <span class="bio-Progressbar reactbar">
+                <div class="value three">50%</div></span>
+        </li>
+    </ul>
+   <button><a class="btn-downloadcv btn" href="./Resume/Abhilash_ManualTester.pdf">Download CV</a></button>
+</div>
+</section>
+
+
+<!-- ===================================
+        Portfolio section starts
+======================================= -->
+
+<section class="portfolio-section">
+
+<h2 class="section-head">Latest Works</h2>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ab consequatur, est quae officiis aut.</p>
+
+<div class="btn-port"> 
+<button ><a class="website btn" href="#">WEBSITE</a></button>
+<!-- Target is used to open link in new tab -->
+<button ><a class="linkedin btn" href="http://linkedin.com" target="_blank">LINKEDIN</a></button>
+</div>
+
+<div class="container">
+    <div class="img-under box1">
+        <img src="./Images/folio/1.jpg" alt="first site">
+        <span class="overlay">
+            <a href="http://www.google.com" target="_blank" class="section-head">Project 1</a>
+        </span>
+    </div>
+
+    <div class="img-under box2">
+        <img src="./Images/folio/2.jpg" alt="">
+            <span class="overlay">
+                <a href="http://www.google.com" target="_blank" class="section-head">Project 2</a>
+            </span>
+    </div>
+
+    <div class="img-under">
+        <img src="./Images/folio/3.jpg" alt="">
+            <span class="overlay">
+                <a href="http://www.google.com" target="_blank" class="section-head">Project 3</a>
+            </span>
+    </div>
+
+    <div class="img-under">
+        <img src="./Images/folio/4.jpg" alt="">
+            <span class="overlay">
+                <a href="http://www.google.com" target="_blank" class="section-head">Project 4</a>
+            </span>
+    </div>
+
+    <div class="img-under box5">
+        <img src="./Images/folio/5.jpg" alt="">
+            <span class="overlay">
+                <a href="http://www.google.com" target="_blank" class="section-head">Project 5</a>
+            </span>
+    </div>
+
+    <div class="img-under box6">
+        <img src="./Images/folio/6.jpg" alt="">
+            <span class="overlay">
+                <a href="http://www.google.com" target="_blank" class="section-head">Project 6</a>
+            </span>
+    </div>
+
+</div>
+</section>
+
+<!-- Counter SECTION
+This section is made to display teh stats of website
+-->
+<section class="stat-section">
+    <div class="stat-box">
+        <div class="stat-title">
+            <span class="statbox1">5</span>
+            Project Completed
+        </div>
+        <div class="stat-title">
+            <span class="statbox2">8+</span>
+            Happy Clients
+        </div>
+        <div class="stat-title">
+            <span class="statbox3">2100+</span>
+            Website Views
+        </div>
+        <div class="stat-title">
+            <span class="statbox4">35</span>
+            CV Downloaded
+        </div>
+    </div>
+</section>
+
+<!-- /* ===================================
+        Resume section starts
+======================================= -->
+<section id="resume-section">
+
+
+</section>
+
+
+
+<!-- /* ===================================
+        parrallax view
+=======================================  -->
+<section id="Para-section">
+
+
+</section>
+
+
+
+<!--  /* ===================================
+        contact section starts
+=======================================  -->
+<section class="contact-section">
+<form action="#" name="visitor-info" onsubmit="validation(event)">
+    Name : <input type="text" id="uname" placeholder=" Enter Your name " value="">
+        <span id="vis-name"> <br></span>
+    Email Id : <input type="email" id="umail" placeholder=" Enter Your Email Id" value="" >
+        <span id="vis-mail">*Req <br></span>
+    Phone No : <input type="tel" id="unum" placeholder="Enter Your Phone No." value="">
+        <span id="vis-num">*Req <br></span>
+    <input type="checkbox" id="iscompany">
+        <span id="is-com">Are you a company Representative <br></span>
+    <input type="submit" value="CONTACT ME">
+</form>
+
+</section>
+
+
+
+
+
+
+
+<!--                 SERVICE SECTION
+        this section displays my proficiency in various skills 
+    -->
+    <section id="service-section"></section>
+
+
+   
+<!--                 CLIENT SECTION
+        this section displays my proficiency in various skills 
+    -->
+    <section id="client-section"></section>
+
+</MAIN>
+
+
+<Footer>
+<div class="footbox">
+    <section class="about">about</section>
+    <section class="link">links</section>
+    <section class="services">services</section>
+    <section class="question">questions</section>
+    
+</div>
+<section class="socialmedia">handles</section>
+Copyright &copy; 2023 All Rights Reserved! This Template Is Made With &hearts; Abby Awadhiya
+</Footer>
+</body>
+
+</html>
