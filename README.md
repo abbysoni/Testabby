@@ -26,8 +26,8 @@ You can click the Preview link to take a look at your changes.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/testabby" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rahulku39403175" height="30" width="40" />Twitter</a>
-<a href="https://linkedin.com/in/abhilash kumar soni" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rahul kumar mishra" height="30" width="40" />LinkedIN</a>
+<a href="https://twitter.com/testabby" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="testabby" height="30" width="40" />Twitter</a>
+<a href="https://linkedin.com/in/abhilash kumar soni" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Abhilash Kumar Soni" height="30" width="40" />LinkedIN</a>
 <a href="https://codesandbox.io/u/abbysoni" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="abbysoni" height="30" width="40" />Sandbox</a>
 
 
