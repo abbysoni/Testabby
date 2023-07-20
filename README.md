@@ -38,7 +38,7 @@ You can click the Preview link to take a look at your changes.
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="100" height="100"/>JAVASCRIPT </a> 
 <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="100" height="100"/>REDUX </a> 
 <a href="https://reactnative.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="React Native" width="100" height="100"/> </a> REACT NATIVE </p>
-  <a href="https://www.firebase.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original-wordmark.svg" alt="mongodb" width="100" height="100"/>FIREBASE </a>
+<!--   <a href="https://www.firebase.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original-wordmark.svg" alt="mongodb" width="100" height="100"/>FIREBASE </a> -->
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=abbysoni&show_icons=true&locale=en&layout=compact" alt="abbysoni" /></p>
 
