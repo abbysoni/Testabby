@@ -359,23 +359,85 @@ background:var(--gradient);
 /* ===================================
         contact section starts
 ======================================= */
-.contact-section{
-    width: 100%;
-    font-size: 3rem;
+.section-head {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
-.input{
-    size: 5rem;
+/* Center the whole form within the section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e1e6ee;
+    font-size: 20px;
 }
 
-input:invalid {
-    border: 2px dashed red;
-  }
-  
-  input:valid {
-    border: 2px solid black;
-  }
-  
+/* Adjust spacing between checkbox text and input box */
+.form-row label[for="iscompany"] {
+    flex: 1.5; /* Set the flex to take equal space */
+    font-weight: bold;
+    color: #3366cc;
+    font-size: 20px;
+    margin-right: 2rem; /* Added margin to the right for spacing between label and input box */
+    text-align: right;
+}
+
+/* Increase the size of the checkbox */
+.form-row input[type="checkbox"] {
+    
+    margin-right: 1rem;
+    transform: scale(1.3);
+}
+
+/* Center the submit button */
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem; /* Added margin at the top for better spacing */
+
+}
+
+/* Modify the style of the submit button */
+.form-row input[type="submit"] {
+    border: 2px solid #45a049;
+    padding: 12px 26px; /* Slightly reduced padding for a more compact look */
+    background-color: #8490ff;
+    color: #fff; /* Added text color for better visibility */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Apply the same style for the submit button when focused */
+.form-row input[type="submit"]:focus {
+    outline: none; /* Remove the default outline on focus */
+    border: 2px solid #45a049;
+    padding: 12px 26px; /* Slightly reduced padding for a more compact look */
+    background-color: #8490ff;
+    color: #fff; /* Added text color for better visibility */
+    font-weight: bold;
+}
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1rem; 
+}
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="tel"] {
+    flex: 1; /* Adjusted flex to take remaining space */
+    /* width:80%; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: left;
+    align-items: end ;
+}
+
+
 /* ===================================
         Footer section starts
 ======================================= */
