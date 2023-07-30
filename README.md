@@ -18,7 +18,7 @@ You can click the Preview link to take a look at your changes.
 
 - 👯 I’m looking to collaborate on **LinkedIn & GitHub**
 
-- 👨‍💻 Have a look at my  <a href="https://abbysoni.github.io/portfolio/">Portfolio</a> 
+- 👨‍💻 Have a look at my  <a href="https://abbysoni.github.io/Portfolio/">Portfolio</a> 
 
 - 📫 How to reach me **abbysoni30@gmail.com** 
 
