@@ -22,7 +22,7 @@ You can click the Preview link to take a look at your changes.
 
 - 📫 How to reach me **abbysoni30@gmail.com** 
 
-- 📄 Download my <a href="https://drive.google.com/file/d/1rvXXFsBAYUwgzlJxsPizJT3v1cI6Ckmf/view?usp=sharing">Resume</a> 
+- 📄 Download my <a href="https://drive.google.com/file/d/1N_G24zWB5SUy0rQrqyVCiyV2VbEJsXS5/view?usp=sharing">Resume</a> 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
