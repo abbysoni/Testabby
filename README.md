@@ -5,12 +5,12 @@ You can click the Preview link to take a look at your changes.
 --->
 
 <h1 align="center">Hi 👋, I'm Abhilash Kumar Soni</h1>
-<h3 align="center">Hi there! I'm a React-Native App developer with over 200+ consistent hrs of experience building react native applications. I have a strong background in JavaScript, Redux and React, and I'm keen on to learn and try new technologies. In my free time, I enjoy creating random applications and attending workshops. You can find some of my work on GitHub, and be sure to check out my website for more information about my projects and experience. Connect with me on LinkedIn to learn more about my professional background and skills. Thanks for visiting!</h3>
+<h3 align="center">Hi there! I'm a Full Stack App developer with over 200+ consistent hrs of experience building  applications. I have a strong background in JavaScript, Redux and React, and I'm keen on to learn and try new technologies. In my free time, I enjoy creating random applications and attending workshops. You can find some of my work on GitHub, and be sure to check out my website for more information about my projects and experience. Connect with me on LinkedIn to learn more about my professional background and skills. Thanks for visiting!</h3>
 
 <img align="right" alt="coding" width="100%" height="500px" src="https://www.sarvika.com/wp-content/uploads/2021/03/Backend-Developer-Python-GIF-Dribble.gif">
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=pannakbhushana&label=Profile%20views&color=0e75b6&style=flat" alt="pannakbhushana" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=pannakbhushana&label=Profile%20views&color=0e75b6&style=flat"  /> </p>
 
 - 🔭 I’m currently working on **Frontend Developmet**
 
